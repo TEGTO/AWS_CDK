@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/sqs_cdk.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/sns_cdk.ts",
   "requireApproval": "never",
   "watch": {
     "include": [

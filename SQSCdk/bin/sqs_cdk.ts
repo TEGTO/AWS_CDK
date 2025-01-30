@@ -10,7 +10,7 @@ const queueName = "MyQueue";
 const retentionPeriod = cdk.Duration.days(4);
 const visibilityTimeout = cdk.Duration.seconds(30);
 
-new SqsCdkStack(app, 'AWSDometrainCourseSQS', {
+new SqsCdkStack(app, 'SqsCdkStack', {
   env: {
     account,
     region,
