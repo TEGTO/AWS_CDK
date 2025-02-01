@@ -1,5 +1,6 @@
 {
   "app": "npx ts-node --prefer-ts-exts bin/s3_cdk.ts",
+  "requireApproval": "never",
   "watch": {
     "include": [
       "**"
